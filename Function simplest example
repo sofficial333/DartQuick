@@ -7,3 +7,65 @@ void main()
 {
 holigreet();
 }
+
+------------------------------------------------------------------------
+String holigreet() //the 'Happy holi return' stored into the function
+{
+  return 'Happy holi return';
+}
+
+void main() 
+{
+holigreet(); //it hold the return value
+}
+------------------------------------------------------------------------
+String holigreet() //the 'Happy holi return' stored into the function
+{
+  return "Happy holi return"; 
+}
+
+void main() 
+{
+ holigreet(); //it hold the return value
+  
+ String funValue=holigreet();
+  print(funValue);                 //Print the function value
+}
+-----------------------------------------------------------------------
+String holigreet() //the 'Happy holi return' stored into the function
+{
+  return 'Happy holi return';  //it will not return the value
+}
+
+void main() 
+{
+ holigreet(); //it hold the return value
+  
+ String funValue=holigreet();
+  print(funValue);    //it will not print the value
+}
+------------------------------------------------------------------------
+int year() {                  //integer function return
+  return 2021;
+}
+
+void main() 
+{
+ int yearOfTheDay = year();
+  print(yearOfTheDay);
+}
+----------------------------------------------------------------------------
+void main(){
+  List friends = ["Bholaram", "MoneyPrasad", "Golu", "Ramu"];
+  friends.remove("MoneyPrasad");
+  friends.add("pattu");
+  print(friends);
+}
+--------------------------------------------------------------------------
+void main(){
+List<String> friends = ["Bholaram", "MoneyPrasad", "Golu", "Ramu"];
+  friends.remove("MoneyPrasad");
+  friends.add("pattu");
+  print(friends);
+}
+------------------------------------------------------------------------------
