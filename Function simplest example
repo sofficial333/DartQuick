@@ -1,0 +1,9 @@
+void holigreet() 
+{
+  print('Happy holi');
+}
+
+void main() 
+{
+holigreet();
+}
