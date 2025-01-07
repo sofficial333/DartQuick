@@ -1,0 +1,24 @@
+void main() 
+{
+  print("Hello World!"); 
+  
+  // datatype variablename = value;
+  String name = "Sandeep";    
+  name = "pooja";     //Name=2133; Error
+  print(name);
+  
+  int pincode = 454001;
+  pincode = 12324;    //Pincode=pooja; Error
+  print(pincode);
+
+  bool isRain = false;
+  print(isRain);
+
+  dynamic myAddress = "New Delhi";//dynamic MyAddress = "New Delhi"; Error
+  myAddress = 122001;
+  print(myAddress);
+  
+  var myHomeAdd = "Devroad";
+  myHomeAdd = "VPO Deiurod";       //myHomeAdd = 333035;  Error
+  print(myHomeAdd);
+}
