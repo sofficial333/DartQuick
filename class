@@ -1,1 +1,71 @@
+class className {
+  String name='SANDEEP';
+  int age=22;
+  bool isPAN=true;
+  }
 
+void main()
+{
+  OpenAc classValue = className(); // class store the Instance of 'className' class
+  print(classValue);
+} 
+-------------------------------------------------------------------------
+class OpenAc {
+  String name="The User";
+  int age=22;
+  bool isPAN=true;
+  }
+
+void main()
+{
+  OpenAc firstUser = OpenAc(); // class store the Instance of "The User"
+  print(firstUser.name);
+  print(firstUser.age);
+  print(firstUser.isPAN);
+} 
+--------------------------------------------------------------------------
+class OpenAc {
+  String? name;
+  int? age;
+  bool? isPAN;
+  
+  OpenAc(String userName, int userAge, bool userPAN){   //Need of Constructor 
+    this.name=userName;
+    this.age=userAge;
+    this.isPAN=userPAN;
+  }
+  }
+
+void main()
+{
+  OpenAc firstUser = OpenAc("sandeep",33,false); // class store the Instance of "The 
+  print(firstUser.name);
+  print(firstUser.age);
+  print(firstUser.isPAN);
+  
+} 
+-----------------------------------------------------------------------------------
+class OpenAc {
+  String? name;
+  int? age;
+  bool? isPAN;
+  
+  OpenAc(String userName, int userAge, bool userPAN){
+    this.name=userName;
+    this.age=userAge;
+    this.isPAN=userPAN;
+  }
+  }
+
+void main()
+{
+  OpenAc firstUser = OpenAc("sandeep",33,false); // class store the Instance of "The 
+  print(firstUser.name);
+  
+  OpenAc secondUser= OpenAc("Pooja",21,true);
+  print(secondUser.name);
+  
+  OpenAc thirdUser= OpenAc("Ayaan",5,true);
+  print(thirdUser.age);
+} 
+------------------------------------------------------------------------------
